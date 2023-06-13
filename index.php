@@ -15,7 +15,7 @@
 
     <table>
         <thead>
-            <td>
+            <tr>
                 <?php
                 $colunas = [
                     'Bandeira',
@@ -37,8 +37,14 @@
                     echo "<th>$valor</th>";
                 }
                 ?>
-            </td>
+            </tr>
         </thead>
+
+        <tbody>
+            <tr>
+                
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
