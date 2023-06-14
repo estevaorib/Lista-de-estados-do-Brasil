@@ -8,22 +8,25 @@
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 
     <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
         table{
             text-align: center;
-            border-collapse: collapse;
-            
+            border-collapse: collapse;    
         }
         img{
             width: 70px;
             width: 50px;
         }
-
+        h1{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <?php 
     echo "<h1>Lista Sintética</h1>";
-    echo "<p>De todos os Estados brasileiros, 17 são litorâneos e 11 são fronteiriços, destes somente Mato Grosso, Rondônia e Santa Catarina possuem fronteira com apenas um país. Somente Amapá, Pará, Paraná, Rio Grande do Sul e Santa Catarina acumulam ambas as funções. A linha do equador passa por quatro Estados (AM, AP, PA e RR) e o trópico de Capricórnio por outros três (MS, PR e SP). Somente Tocantins (à exceção do Distrito Federal) não possui municípios que realizem segundo turno eleitoral a nível municipal. Outros três Estados (GO, MG e TO), além do Distrito Federal, têm seus limites territoriais compostos somente por outras unidades federativas, portanto, não fazem fronteira internacional e nem possuem saída para o mar. Curiosamente, nenhum deles é atravessado por qualquer das principais linhas imaginárias do planeta.</p>"
     ?>
 
     <table border="1">
@@ -169,7 +172,7 @@
                             'expectativavida'=> '78.1 anos'
                         ],
                         $espiritosanto = [
-                            'bandeira'=> 'bandeira do Espírito Santo.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Bandeira_do_Espírito_Santo.svg">',
                             'uf'=> 'Espírito Santo',
                             'abreviacao'=> 'ES',
                             'sede_governo'=> 'Vitória',
@@ -181,11 +184,11 @@
                             'pibpercapta'=> 30627.45,
                             'idh'=> 0.740,
                             'alfabetizacao'=> '93.8%',
-                            'mortalidadeinfantil'=> '8.8‰',
+                            'mortalidadeinfantil'=> '8.8%',
                             'expectativavida'=> '78.2 anos'
                         ],
                         $goias = [
-                            'bandeira'=> 'Flag of Goiás.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_Goiás.svg">',
                             'uf'=> 'Goiás',
                             'abreviacao'=> 'GO',
                             'sede_governo'=> 'Goiânia',
@@ -197,11 +200,11 @@
                             'pibpercapta'=> 26265.32,
                             'idh'=> 0.735,
                             'alfabetizacao'=> '93.5%',
-                            'mortalidadeinfantil'=> '14.9‰',
+                            'mortalidadeinfantil'=> '14.9%',
                             'expectativavida'=> '74.2 anos'
                         ],
                         $maranhao = [
-                            'bandeira'=> 'bandeira do Maranhão.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Bandeira_do_Maranhão.svg">',
                             'uf'=> 'Maranhão',
                             'abreviacao'=> 'MA',
                             'sede_governo'=> 'São Luís',
@@ -213,11 +216,11 @@
                             'pibpercapta'=> 11366.23,
                             'idh'=> 0.639,
                             'alfabetizacao'=> '83.3%',
-                            'mortalidadeinfantil'=> '21.3‰',
+                            'mortalidadeinfantil'=> '21.3%',
                             'expectativavida'=> '70.6 anos'
                         ],
                         $matogrosso = [
-                            'bandeira'=> 'bandeira de Mato Grosso.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Bandeira_de_Mato_Grosso.svg">',
                             'uf'=> 'Mato Grosso',
                             'abreviacao'=> 'MT',
                             'sede_governo'=> 'Cuiabá',
@@ -229,11 +232,11 @@
                             'pibpercapta'=> 32894.96,
                             'idh'=> 0.725,
                             'alfabetizacao'=> '93.5%',
-                            'mortalidadeinfantil'=> '16.9‰',
+                            'mortalidadeinfantil'=> '16.9%',
                             'expectativavida'=> '74.2 anos'
                         ],
                         $matogrossodosul = [
-                            'bandeira'=> 'bandeira de Mato Grosso do Sul.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Bandeira_de_Mato_Grosso_do_Sul.svg">',
                             'uf'=> 'Mato Grosso do Sul',
                             'abreviacao'=> 'MS',
                             'sede_governo'=> 'Campo Grande',
@@ -245,11 +248,11 @@
                             'pibpercapta'=> 31337.22,
                             'idh'=> 0.765,
                             'alfabetizacao'=> '93.4%',
-                            'mortalidadeinfantil'=> '14.9‰',
+                            'mortalidadeinfantil'=> '14.9%',
                             'expectativavida'=> '75.1 anos'
                         ],
                         $minasgerais = [
-                            'bandeira'=> 'bandeira de Minas Gerais.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Bandeira_de_Minas_Gerais.svg">',
                             'uf'=> 'Minas Gerais',
                             'abreviacao'=> 'MG',
                             'sede_governo'=> 'Belo Horizonte',
@@ -261,11 +264,11 @@
                             'pibpercapta'=> 22322.63,
                             'idh'=> 0.731,
                             'alfabetizacao'=> '91.4%',
-                            'mortalidadeinfantil'=> '12.3‰',
+                            'mortalidadeinfantil'=> '12.3%',
                             'expectativavida'=> '76.6 anos'
                         ],
                         $para = [
-                            'bandeira'=> 'Flag of Pará.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Bandeira_do_Pará.svg">',
                             'uf'=> 'Pará',
                             'abreviacao'=> 'PA',
                             'sede_governo'=> 'Belém',
@@ -277,11 +280,11 @@
                             'pibpercapta'=> 14502.98,
                             'idh'=> 0.639,
                             'alfabetizacao'=> '88.4%',
-                            'mortalidadeinfantil'=> '20.4‰',
+                            'mortalidadeinfantil'=> '20.4%',
                             'expectativavida'=> '71.7 anos'
                         ],
                         $paraiba = [
-                            'bandeira'=> 'bandeira da Paraíba.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Bandeira_da_Paraíba.svg">',
                             'uf'=> 'Paraíba',
                             'abreviacao'=> 'PB',
                             'sede_governo'=> 'João Pessoa',
@@ -293,11 +296,11 @@
                             'pibpercapta'=> 14449.10,
                             'idh'=> 0.683,
                             'alfabetizacao'=> '84.4%',
-                            'mortalidadeinfantil'=> '15.8‰',
+                            'mortalidadeinfantil'=> '15.8%',
                             'expectativavida'=> '74.1 anos'
                         ],
                         $parana = [
-                            'bandeira'=> 'bandeira do Paraná.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Bandeira_do_Paraná.svg">',
                             'uf'=> 'Paraná',
                             'abreviacao'=> 'PR',
                             'sede_governo'=> 'Curitiba',
@@ -309,11 +312,11 @@
                             'pibpercapta'=> 33262.89,
                             'idh'=> 0.749,
                             'alfabetizacao'=> '96.3%',
-                            'mortalidadeinfantil'=> '9.7‰',
+                            'mortalidadeinfantil'=> '9.7%',
                             'expectativavida'=> '77.5 anos'
                         ],
                         $pernambuco = [
-                            'bandeira'=> 'bandeira de Pernambuco.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Bandeira_de_Pernambuco.svg">',
                             'uf'=> 'Pernambuco',
                             'abreviacao'=> 'PE',
                             'sede_governo'=> 'Recife',
@@ -325,11 +328,11 @@
                             'pibpercapta'=> 19367.45,
                             'idh'=> 0.694,
                             'alfabetizacao'=> '90.7%',
-                            'mortalidadeinfantil'=> '14.2‰',
+                            'mortalidadeinfantil'=> '14.2%',
                             'expectativavida'=> '73.9 anos'
                         ],
                         $piaui = [
-                            'bandeira'=> 'Flag of Piauí.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Bandeira_do_Piauí.svg">',
                             'uf'=> 'Piauí',
                             'abreviacao'=> 'PI',
                             'sede_governo'=> 'Teresina',
@@ -341,11 +344,11 @@
                             'pibpercapta'=> 14117.61,
                             'idh'=> 0.639,
                             'alfabetizacao'=> '86.7%',
-                            'mortalidadeinfantil'=> '18.3‰',
+                            'mortalidadeinfantil'=> '18.3%',
                             'expectativavida'=> '70.8 anos'
                         ],
                         $rj = [
-                            'bandeira'=> 'bandeira do Rio de Janeiro.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg">',
                             'uf'=> 'Rio de Janeiro',
                             'abreviacao'=> 'RJ',
                             'sede_governo'=> 'Rio de Janeiro',
@@ -357,11 +360,11 @@
                             'pibpercapta'=> 40111.45,
                             'idh'=> 0.761,
                             'alfabetizacao'=> '93.8%',
-                            'mortalidadeinfantil'=> '10.8‰',
+                            'mortalidadeinfantil'=> '10.8%',
                             'expectativavida'=> '76.7 anos'
                         ],
                         $riograndedonorte = [
-                            'bandeira'=> 'bandeira do Rio Grande do Norte.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Bandeira_do_Rio_Grande_do_Norte.svg">',
                             'uf'=> 'Rio Grande do Norte',
                             'abreviacao'=> 'RN',
                             'sede_governo'=> 'Natal',
@@ -373,11 +376,11 @@
                             'pibpercapta'=> 15305.40,
                             'idh'=> 0.684,
                             'alfabetizacao'=> '92.4%',
-                            'mortalidadeinfantil'=> '13.3‰',
+                            'mortalidadeinfantil'=> '13.3%',
                             'expectativavida'=> '75.1 anos'
                         ],
                         $riograndedosul = [
-                            'bandeira'=> 'Flag of Rio Grande do Sul.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Bandeira_do_Rio_Grande_do_Sul.svg">',
                             'uf'=> 'Rio Grande do Sul',
                             'abreviacao'=> 'RS',
                             'sede_governo'=> 'Porto Alegre',
@@ -389,11 +392,11 @@
                             'pibpercapta'=> 33842.74,
                             'idh'=> 0.746,
                             'alfabetizacao'=> '96.5%',
-                            'mortalidadeinfantil'=> '10.9‰',
+                            'mortalidadeinfantil'=> '10.9%',
                             'expectativavida'=> '77.8 anos'
                         ],
                         $rondonia = [
-                            'bandeira'=> 'bandeira de Rondônia.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Bandeira_de_Rondônia.svg">',
                             'uf'=> 'Rondônia',
                             'abreviacao'=> 'RO',
                             'sede_governo'=> 'Porto Velho',
@@ -405,11 +408,11 @@
                             'pibpercapta'=> 24702.80,
                             'idh'=> 0.719,
                             'alfabetizacao'=> '93.4%',
-                            'mortalidadeinfantil'=> '17.4‰',
+                            'mortalidadeinfantil'=> '17.4%',
                             'expectativavida'=> '72.9 anos'
                         ],
                         $roraima = [
-                            'bandeira'=> 'bandeira de Roraima.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Bandeira_de_Roraima.svg">',
                             'uf'=> 'Roraima',
                             'abreviacao'=> 'RR',
                             'sede_governo'=> 'Boa Vista',
@@ -421,11 +424,11 @@
                             'pibpercapta'=> 19666.47,
                             'idh'=> 0.725,
                             'alfabetizacao'=> '96.1%',
-                            'mortalidadeinfantil'=> '19.6‰',
+                            'mortalidadeinfantil'=> '19.6%',
                             'expectativavida'=> '72.4 anos'
                         ],
                         $santacatarina = [
-                            'bandeira'=> 'bandeira de Santa Catarina.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Bandeira_de_Santa_Catarina.svg">',
                             'uf'=> 'Santa Catarina',
                             'abreviacao'=> 'SC',
                             'sede_governo'=> 'Florianópolis',
@@ -437,11 +440,11 @@
                             'pibpercapta'=> 35124.11,
                             'idh'=> 0.774,
                             'alfabetizacao'=> '97.4%',
-                            'mortalidadeinfantil'=> '9.2‰',
+                            'mortalidadeinfantil'=> '9.2%',
                             'expectativavida'=> '79.1 anos'
                         ],
                         $saopaulo = [
-                            'bandeira'=> 'Flag of São Paulo.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Bandeira_do_estado_de_São_Paulo.svg">',
                             'uf'=> 'São Paulo',
                             'abreviacao'=> 'SP',
                             'sede_governo'=> 'São Paulo',
@@ -453,11 +456,11 @@
                             'pibpercapta'=> 46860.48,
                             'idh'=> 0.783,
                             'alfabetizacao'=> '95.4%',
-                            'mortalidadeinfantil'=> '10.8‰',
+                            'mortalidadeinfantil'=> '10.8%',
                             'expectativavida'=> '77.4 anos'
                         ],
                         $sergipe = [
-                            'bandeira'=> 'bandeira de Sergipe.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Bandeira_de_Sergipe.svg">',
                             'uf'=> 'Sergipe',
                             'abreviacao'=> 'SE',
                             'sede_governo'=> 'Aracaju',
@@ -469,11 +472,11 @@
                             'pibpercapta'=> 16212.82,
                             'idh'=> 0.665,
                             'alfabetizacao'=> '92.4%',
-                            'mortalidadeinfantil'=> '15.6‰',
+                            'mortalidadeinfantil'=> '15.6%',
                             'expectativavida'=> '72.7 anos'
                         ],
                         $tocantins = [
-                            'bandeira'=> 'Flag of Tocantins.svg',
+                            'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Bandeira_do_Tocantins.svg">',
                             'uf'=> 'Tocantins',
                             'abreviacao'=> 'TO',
                             'sede_governo'=> 'Palmas',
@@ -485,7 +488,7 @@
                             'pibpercapta'=> 16701.50,
                             'idh'=> 0.699,
                             'alfabetizacao'=> '93.4%',
-                            'mortalidadeinfantil'=> '19.5‰',
+                            'mortalidadeinfantil'=> '19.5%',
                             'expectativavida'=> '73.9 anos'
                         ]
                     ];
