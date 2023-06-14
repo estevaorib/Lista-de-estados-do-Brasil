@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista Sintética de UFs</title>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <style>
+        table{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <?php 
@@ -49,7 +55,7 @@
                             'abreviacao' => 'AC',
                             'sede_governo' => 'Rio Branco',
                             'area' => 164122.2,
-                            'população' => 795145,
+                            'populacao' => 795145,
                             'densidade' => 4.30,
                             'pib' => 13622000,
                             'porcentagem' => 0.2,
@@ -59,8 +65,24 @@
                             'mortalidadeinfantil' => '17.0%',
                             'expectativavida' => '73.9 anos'
                         ],
+                        $alagoas = [
+                        'bandeira'=> '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bandeira_de_Alagoas.svg/45px-Bandeira_de_Alagoas.svg.png"',
+                        'uf' => 'Alagoas',
+                        'abreviacao' => 'AL',
+                        'sede_governo' => 'Maceió',
+                        'area' => 27767.7,
+                        'populacao' => 3327551,
+                        'densidade' => 108.61,
+                        'pib' => 46364000,
+                        'porcentagem' => 0.8,
+                        'pibpercapta' => 13877.53,
+                        'idh' => 0.631,
+                        'alfabetizacao' => '80.6%',
+                        'mortalidadeinfantil'=> '19.5%',
+                        'expectativavida' => '71.6 anos'
+                        ]
                     ];
-                    
+
                     foreach($lista as $chave => $valor){
                         echo "<tr>";
                         foreach($valor as $chaveinterna => $valorinterno){
