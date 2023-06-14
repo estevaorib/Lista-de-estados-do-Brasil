@@ -41,9 +41,34 @@
         </thead>
 
         <tbody>
-            <tr>
-                
-            </tr>
+                <?php 
+                    $lista = [
+                        $acre = [
+                            'bandeira' => '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bandeira_do_Acre.svg/45px-Bandeira_do_Acre.svg.png">',
+                            'uf' => 'Acre',
+                            'abreviacao' => 'AC',
+                            'sede_governo' => 'Rio Branco',
+                            'area' => 164122.2,
+                            'população' => 795145,
+                            'densidade' => 4.30,
+                            'pib' => 13622000,
+                            'porcentagem' => 0.2,
+                            'pibpercapta' => 16953.46,
+                            'idh' => 0.663,
+                            'alfabetizacao' => '86.9%',
+                            'mortalidadeinfantil' => '17.0%',
+                            'expectativavida' => '73.9 anos'
+                        ],
+                    ];
+                    
+                    foreach($lista as $chave => $valor){
+                        echo "<tr>";
+                        foreach($valor as $chaveinterna => $valorinterno){
+                            echo "<td>$valorinterno</td>";
+                        }
+                        echo "</tr>";
+                    }  
+                ?>
         </tbody>
     </table>
 </body>
